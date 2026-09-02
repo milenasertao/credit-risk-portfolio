@@ -1,0 +1,43 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editores e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# Bases de dados locais
+data/raw/*
+data/interim/*
+data/processed/*
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.db
+*.sqlite
+
+# Permite documentação e arquivos de exemplo
+!data/**/README.md
+!data/**/*_sample.csv
+!data/**/*_example.csv
